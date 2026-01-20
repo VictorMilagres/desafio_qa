@@ -11,7 +11,7 @@ No pipeline o interessante é priorizar os testes de unidade, pois o que esperam
 ### Cite três vantagens e três riscos da automação de testes em projetos corporativos.
 
 R: Vantagens: 
-1. Velocidade no Feedback: Em projetos com muitas entregas, não dá para esperar testes manuais a cada entrega onde precisa ser executado sempre um teste regressivo, então a automação acaba acelarando as entregas para minutos ao invés de horas.
+Velocidade no Feedback: Em projetos com muitas entregas, não dá para esperar testes manuais a cada entrega onde precisa ser executado sempre um teste regressivo, então a automação acaba acelarando as entregas para minutos ao invés de horas.
 Execução de Tarefas Repetitivas com mínimas falhas humanas: Nos testes manuais testes longos com prrenchimentos extensos acabam aumentando a chance de falha por cansaço de fazer tarefa repetida, a automação remove grande parte dessa falha.
 Maior Cobertura de Testes: Com a automação o sistema pode ser testado em diferentes navegadores, sistemas operacionais e resoluções de tela simultaneamente, algo que demandaria muito mais tempo caso fosse feito manualmente.
 
