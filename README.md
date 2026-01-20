@@ -1,6 +1,6 @@
 # Desafio QA
 
-## Partee 0
+## Parte 0
 
 A pasta `parte0` contém todas as respostas das perguntas Parte 0 - Teorias e Conceitos Fundamentais.
 
@@ -31,6 +31,6 @@ mvn test
 ```
 
 ### Cenários Automatizados:
-1. Cenário 1: Login válido com perfil USER
-2. Cenário 2: Login de Perfil sem acesso (VISITOR)
-3. Cenário 3: Bloqueio de Usuário
+Cenário 1: Login válido com perfil USER
+Cenário 2: Login de Perfil sem acesso (VISITOR)
+Cenário 3: Bloqueio de Usuário
