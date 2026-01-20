@@ -31,6 +31,6 @@ mvn test
 ```
 
 ### Cenários Automatizados:
-Cenário 1: Login válido com perfil USER
-Cenário 2: Login de Perfil sem acesso (VISITOR)
-Cenário 3: Bloqueio de Usuário
+- Cenário 1: Login válido com perfil USER
+- Cenário 2: Login de Perfil sem acesso (VISITOR)
+- Cenário 3: Bloqueio de Usuário
