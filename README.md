@@ -41,7 +41,7 @@ mvn test
 - Cenário 2: Login de Perfil sem acesso (VISITOR)
 - Cenário 3: Bloqueio de Usuário
 
-## Parte C - Automação API (RestAssured)
+## Parte C - Automação API (RestAssured) e Parte D - Integração e Esperas
 
 Este projeto contém a automação de testes de integração para os endpoints de autenticação, utilizando **Java**, **RestAssured** e **JUnit 5**. O objetivo é garantir a integridade das respostas do backend sob diferentes condições de acesso.
 
@@ -56,7 +56,7 @@ Este projeto contém a automação de testes de integração para os endpoints d
    ```
 2. Navegue até a pasta:
    ```
-   cd parteC
+   cd parteC_D
    ```
 3. Instale as dependências:
    ```
@@ -70,7 +70,11 @@ mvn test
 ```
 
 ### Cenários Automatizados:
+#### Parte C
 - Cenário 1: Sucesso (HTTP 200) - Valida se o login retorna o `token` e o `perfil` do usuário corretamente.
 - Cenário 2: Credenciais Inválidas (HTTP 401) - Valida a resposta quando o e-mail ou senha estão incorretos.
 - Cenário 3: Acesso Negado (HTTP 403) - Valida a restrição de acesso para usuários sem permissão.
 - Cenário 4: Usuário Bloqueado (HTTP 423) - Valida se a API informa corretamente quando uma conta está bloqueada (ex: por excesso de tentativas).
+
+#### Parte D
+- Cenário: Validar Integração e Carregamento Assíncrono do Dashboard

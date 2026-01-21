@@ -27,4 +27,12 @@ public class LoginService {
         .when()
             .get("/status/" + statusCode);
     }
+
+    public Response consultDashboard(String token) {
+    return given()
+        .baseUri(ConfigLoader.getProperty("api.base.uri"))
+        .header("Authorization", "Bearer " + token)
+    .when()
+        .get("/auth/me");
+    }
 }

@@ -1,4 +1,5 @@
 services\LoginService.class
 models\LoginRequest.class
 tests\ApiLoginTest.class
+tests\ApiDashboardTest.class
 utils\ConfigLoader.class
