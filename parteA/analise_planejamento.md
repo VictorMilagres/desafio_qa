@@ -8,7 +8,9 @@ Tarefas:
 
 Resposta/Análise:
 1. Cenários de Teste
+
 | ID	| Cenário	                                     | Perfil	| Tipo	      | Resultado Esperado                                             |
+|------|------------------------------------------------|-------|------------|----------------------------------------------------------------|
 | CT01	| Login com credenciais válidas e perfil ADMIN   | ADMIN	| Positivo	  | Redirecionamento para o Dashboard de Gestão em < 5s.           |
 | CT02	| Login com credenciais válidas e perfil VISITOR | VISITOR	| Positivo	  | Redirecionamento para Home de Leitura (sem botões de edição).  |
 | CT03	| Tentativa de acesso com senha incorreta	     | Qualquer | Negativo	  | Mensagem: "Usuário ou senha inválidos" (sem especificar qual). |
