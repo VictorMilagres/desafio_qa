@@ -21,7 +21,9 @@ R: O Teste de excluir com persistência:
 2. Gerar registros de auditoria para ele.
 3. Excluir o usuário através da API.
 4. Executar a consulta.
+
 Resultado: A query não deve retornar nada. Se retornar o ID da auditoria do usuário deletado, o sistema tem um bug de integridade.
+
 
 4. Como evitar o problema no banco?
 
