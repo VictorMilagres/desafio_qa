@@ -20,6 +20,7 @@ Resposta/Análise:
 | CT07	| Performance sob latência (Login em rede lenta) | USER	    | Performance |	Garantir que o sistema não dê timeout antes dos 5s.            |
 | CT08	| Injeção de SQL no campo de usuário	         | N/A	    | Segurança	  | O sistema deve tratar caracteres especiais e negar o acesso.   |
 
+
 2. Classificação dos Tipos de Teste 
 Para esse desafio está sendo coberto:
 Testes Funcionais: Validam se o login e perfis funcionam conforme a regra de negócio.
@@ -27,14 +28,14 @@ Testes de Segurança: Focados em proteção (brute force, SQL injection, control
 Testes de Performance: Validação do requisito de tempo de resposta (< 5s).
 Testes de Usabilidade: Mensagens de erro claras e máscaras de campo.
 
-3.Estratégia de Automação
+3. Estratégia de Automação
 API: Automatizar os CT01, CT02, CT03, CT04 e CT08. É mais rápido e barato validar as regras de permissão e segurança direto no endpoint de autenticação.
 Interface: Automatizar apenas o "Caminho Feliz" (CT01) e as validações de campo visual (CT05). Usar para garantir que o redirecionamento visual e o tempo de carregamento perceptível estão dentro do esperado.
 Manual: Testar cenários de UX complexos ou interrupções de rede muito específicas que são difíceis de simular via script de forma estável.
 
 4. Estrutura Proposta para o Projeto de Automação
 Estrutura em Java + Maven utilizando Cypress (para UI) e RestAssured (para API), organizada da seguinte forma:
-
+```
 src/
  ├── main/
  └── test/
@@ -45,6 +46,7 @@ src/
       └── resources/
            ├── data/                  # Massas de teste (JSON/CSV)
            └── features/              # Cenários em BDD (Gherkin)
+```
 
 Pilares da Estrutura:
 Page Object: Isolar os seletores da tela da lógica do teste.
