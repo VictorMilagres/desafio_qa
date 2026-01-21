@@ -19,6 +19,7 @@ R: No lugar do LEFT JOIN com a condição a.sucesso = true dentro do ON, usuári
 3. Que tipo de cenário de teste você derivaria a partir dela?
 
 | Cenário              | Descrição                                                            | Resultado Esperado                          |
+|----------------------|----------------------------------------------------------------------|---------------------------------------------|
 | Limite               | Usuário ADMIN com exatamente 5 logins de sucesso.                    | Não deve aparecer (o filtro é > 5).         |
 | Sucesso              | Usuário ADMIN com 6 logins de sucesso.                               | Deve aparecer com total 6.                  |
 | Filtro de Perfil     | Usuário 'USER' comum com 10 logins de sucesso.                       | Não deve aparecer (filtro de perfil ADMIN). |
