@@ -11,9 +11,11 @@ ORDER BY total_logins DESC;
 
 ### Perguntas:
 1. Qual o propósito dessa consulta?
+
 R: Identificar usuários administradores ativos e frequentes. A consulta busca o nome de usuário apenas de quem possui o perfil 'ADMIN'. Conta quantos logins realizados com sucesso cada um dos administradores realizou. Filtra os resultados para mostrar apenas os que tiveram mais de 5 logins com sucesso e apresenta a lista do mais ativo para o menos ativo.
 
 2. Há erros lógicos ou sintáticos?
+
 R: No lugar do LEFT JOIN com a condição a.sucesso = true dentro do ON, usuários 'ADMIN' que nunca logaram (ou nunca logaram com sucesso) aparecerão com total_logins = 0. No entanto, a cláusula HAVING COUNT(a.id) > 5 excluirá esses usuários de qualquer maneira. Se o objetivo é visualizar somente quem tem logins, um INNER JOIN seria mais performático. 
 
 3. Que tipo de cenário de teste você derivaria a partir dela?
