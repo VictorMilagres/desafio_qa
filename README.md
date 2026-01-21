@@ -1,15 +1,13 @@
 # Desafio QA
 
-## Parte 0
-
+## Parte 0 - Teorias e Conceitos Fundamentais
 A pasta `parte0` contém todas as respostas das perguntas Parte 0 - Teorias e Conceitos Fundamentais.
 
-## Parte A
+## Parte A - Análise e Planejamento de Testes
 A pasta `parteA` contém toda a Análise e Planejamento de Testes.
 
 
 ## Parte B - Automação UI (Selenium)
-
 Este projeto contém a automação de cenários críticos da tela de login, utilizando **Java**, **Selenium WebDriver** e o padrão **Page Object Model**.
 
 ### Pré-requisitos
@@ -42,7 +40,6 @@ mvn test
 - Cenário 3: Bloqueio de Usuário
 
 ## Parte C - Automação API (RestAssured) e Parte D - Integração e Esperas
-
 Este projeto contém a automação de testes de integração para os endpoints de autenticação, utilizando **Java**, **RestAssured** e **JUnit 5**. O objetivo é garantir a integridade das respostas do backend sob diferentes condições de acesso.
 
 ### Pré-requisitos
@@ -78,3 +75,6 @@ mvn test
 
 #### Parte D
 - Cenário: Validar Integração e Carregamento Assíncrono do Dashboard
+
+## Parte E - SQL e Banco de dados (PostgreSQL)
+A pasta `parteE` contém todos os 5 exemplos e suas respectivas respostas.
