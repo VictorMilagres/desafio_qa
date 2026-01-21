@@ -18,11 +18,17 @@ Este projeto contém a automação de cenários críticos da tela de login, util
 
 ### Configuração
 1. Clone o repositório:
-   `git clone git@github.com:VictorMilagres/desafio_qa.git`
+   ```
+   git clone git@github.com:VictorMilagres/desafio_qa.git
+   ```
 2. Navegue até a pasta:
-   `cd parteB`
+   ```
+   cd parteB
+   ```
 3. Instale as dependências:
-   `mvn clean install`
+   ```
+   mvn clean install
+   ```
 
 ### Como rodar os testes
 Você pode rodar todos os testes pelo terminal com o comando:
@@ -45,11 +51,17 @@ Este projeto contém a automação de testes de integração para os endpoints d
 
 ### Configuração
 1. Clone o repositório:
-   `git clone git@github.com:VictorMilagres/desafio_qa.git`
+   ```
+   git clone git@github.com:VictorMilagres/desafio_qa.git
+   ```
 2. Navegue até a pasta:
-   `cd parteC`
+   ```
+   cd parteC
+   ```
 3. Instale as dependências:
-   `mvn clean install`
+   ```
+   mvn clean install
+   ```
 
 ### Como rodar os testes
 Você pode rodar todos os testes pelo terminal com o comando:
